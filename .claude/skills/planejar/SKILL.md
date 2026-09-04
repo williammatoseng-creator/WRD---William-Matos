@@ -80,6 +80,11 @@ Uma etapa só está concluída quando foi comprovada:
   aplique a correção e mostre o mesmo comando passando.
 - Para funcionalidade nova: escreva o teste que a cobre. Sem teste, diga
   explicitamente que ficou sem cobertura.
+- **Prove que o teste novo tem valor.** Um teste que passa não demonstra nada
+  se ele passaria também com o defeito presente. Desfaça a correção
+  temporariamente — em cópia, nunca no arquivo bom — e confirme que o teste
+  falha. Se ele passa dos dois lados, ele não protege nada: refaça o teste,
+  não o código. Volte ao estado corrigido antes de seguir.
 - **Nunca** desative, pule ou marque um teste como ignorado para ficar verde.
   Teste falhando é informação, não obstáculo.
 
