@@ -52,3 +52,9 @@ Uma etapa só está concluída quando foi comprovada:
 - Seja direto: o que foi feito, o que foi verificado, o que ficou pendente.
 - Cite arquivos no formato `caminho/arquivo.ext:linha`.
 - Sem elogios, sem enrolação, sem repetir o que já foi combinado.
+
+## Skill `/planejar`
+
+O fluxo acima está detalhado, passo a passo, na skill do projeto em
+`.claude/skills/planejar/SKILL.md`. Use `/planejar` para conduzi-lo
+explicitamente em uma tarefa.
